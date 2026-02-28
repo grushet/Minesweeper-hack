@@ -45,9 +45,8 @@ for (var i = 0; i < bomboclatCount; i++) {
     grid[randomX][randomY] = 1;
 }
 
-var maxGold = gameSize * gameSize;
+var maxGold = round((gameSize * gameSize) / 8);
 var goldCount = irandom(maxGold);
-
 for (var i = 0; i < goldCount; i++) {
     var gx, gy;
     do {
