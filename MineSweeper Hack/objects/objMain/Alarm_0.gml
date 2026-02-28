@@ -1,9 +1,8 @@
-/// @description Wait to reset game
+/// @description Insert description here
 // You can write your code in this editor
 
-objMain.gameSize = 3;
+gameSize = 3;
 resetGame();
-
 
 
 

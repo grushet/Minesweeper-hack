@@ -10,18 +10,41 @@ if (cellValue == -1) exit;
 if (cellValue == 1) {
     // BOMB
     instance_create_layer(x, y, "Instances", objBomb);
-	alarm_set(0, room_speed * 4)
+	objMain.alarm[0] = room_speed * 2;
     objMain.grid[gridX][gridY] = -1;
     instance_destroy();
     
 } else if (cellValue == 2) {
     // LUCKY BLOCK
+	var remaining = instance_number(objClickableTile) - 1;
+	var bombCount = 0;
+	for (var j = 0; j < objMain.gameSize; j++) {
+	    for (var i = 0; i < objMain.gameSize; i++) {
+	        if (objMain.grid[i][j] == 1) bombCount++;
+	    }
+	}
+
+	if (remaining == bombCount) {
+	    objMain.alarm[1] = room_speed * 2;
+	}
     var inst = instance_create_layer(x, y, "Instances", objLuckyBlock);
     inst.gridX = gridX;
     inst.gridY = gridY;
     instance_destroy();
     
 } else {
+	var remaining = instance_number(objClickableTile) - 1;
+	var bombCount = 0;
+	for (var j = 0; j < objMain.gameSize; j++) {
+	    for (var i = 0; i < objMain.gameSize; i++) {
+	        if (objMain.grid[i][j] == 1) bombCount++;
+	    }
+	}
+
+if (remaining == bombCount) {
+    objMain.alarm[1] = room_speed * 2;
+}
+	
     var bombNum = calculateN(gridX, gridY);
     var inst = instance_create_layer(x, y, "Instances", objRevealed);
     inst.gridX = gridX;

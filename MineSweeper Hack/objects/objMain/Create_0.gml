@@ -35,7 +35,7 @@ for (var i = 0; i < width; i++) {
     }
 }
 
-var bomboclatCount = floor((gameSize * gameSize) / 5.6741);
+bomboclatCount = floor((gameSize * gameSize) / 5.6741);
 
 for (var i = 0; i < bomboclatCount; i++) {
     var randomX, randomY;
