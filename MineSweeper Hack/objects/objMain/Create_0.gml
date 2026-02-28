@@ -1,7 +1,6 @@
-/// @description Main
+	/// @description Main
 // You can write your code in this editor
 randomize();
-window_set_fullscreen(true);
 //@Field Tile Creation start
 var tileSize = 128;
 var gap = 2; 
@@ -12,10 +11,13 @@ var gridHeight = gameSize * step;
 
 var startX = (room_width / 2) - (gridWidth / 2) + tileSize / 2;
 var startY = (room_height / 2) - (gridHeight / 2) + tileSize / 2;
-
+show_debug_message("gameSize = " + string(gameSize));
+show_debug_message("room_width = " + string(room_width));
+show_debug_message("startX = " + string(startX));
+show_debug_message("startY = " + string(startY));
 for (var j = 0; j < gameSize; j++) {
     for (var i = 0; i < gameSize; i++) {
-        var inst = instance_create_layer(startX + i * step, startY + j * step, "Instances", objClickableTile);
+        var inst = instance_create_layer(startX + i * step, startY + j * step, 0, objClickableTile);
         inst.gridX = i; 
         inst.gridY = j; 
     }
@@ -44,6 +46,14 @@ for (var i = 0; i < bomboclatCount; i++) {
     
     grid[randomX][randomY] = 1;
 }
+for (var j = 0; j < gameSize; j++) {
+    var row = "";
+    for (var i = 0; i < gameSize; i++) {
+        row += string(grid[i][j]) + " ";
+    }
+    show_debug_message(row);
+}
+
 
 var maxGold = round((gameSize * gameSize) / 8);
 var goldCount = irandom(maxGold);
