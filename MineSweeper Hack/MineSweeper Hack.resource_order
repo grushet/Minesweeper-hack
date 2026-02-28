@@ -19,6 +19,9 @@
   ],
   "ResourceOrderSettings": [
     {"name":"ClickableTile","order":1,"path":"sprites/ClickableTile/ClickableTile.yy",},
+    {"name":"LuckyBlock","order":3,"path":"sprites/LuckyBlock/LuckyBlock.yy",},
+    {"name":"objBomb","order":2,"path":"objects/objBomb/objBomb.yy",},
+    {"name":"Bomb","order":2,"path":"sprites/Bomb/Bomb.yy",},
     {"name":"objClickableTile","order":1,"path":"objects/objClickableTile/objClickableTile.yy",},
   ],
 }

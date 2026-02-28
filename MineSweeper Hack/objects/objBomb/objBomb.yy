@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objClickableTile",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-  ],
+  "name": "objBomb",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "ClickableTile",
-    "path": "sprites/ClickableTile/ClickableTile.yy",
+    "name": "Bomb",
+    "path": "sprites/Bomb/Bomb.yy",
   },
   "spriteMaskId": null,
   "visible": true,

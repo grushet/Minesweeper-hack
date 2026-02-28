@@ -36,8 +36,11 @@
   },
   "resources": [
     {"id":{"name":"ClickableTile","path":"sprites/ClickableTile/ClickableTile.yy",},},
+    {"id":{"name":"LuckyBlock","path":"sprites/LuckyBlock/LuckyBlock.yy",},},
+    {"id":{"name":"objBomb","path":"objects/objBomb/objBomb.yy",},},
     {"id":{"name":"BoardBackground","path":"sprites/BoardBackground/BoardBackground.yy",},},
     {"id":{"name":"objMain","path":"objects/objMain/objMain.yy",},},
+    {"id":{"name":"Bomb","path":"sprites/Bomb/Bomb.yy",},},
     {"id":{"name":"objClickableTile","path":"objects/objClickableTile/objClickableTile.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
