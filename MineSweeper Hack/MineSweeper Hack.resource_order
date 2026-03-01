@@ -48,7 +48,6 @@
     {"name":"setupGame","order":3,"path":"scripts/setupGame/setupGame.yy",},
     {"name":"spr_4","order":9,"path":"sprites/spr_4/spr_4.yy",},
     {"name":"Round2","order":16,"path":"sprites/Round2/Round2.yy",},
-    {"name":"backgroundSound","order":1,"path":"sounds/backgroundSound/backgroundSound.yy",},
     {"name":"Round1","order":15,"path":"sprites/Round1/Round1.yy",},
     {"name":"spr_2","order":6,"path":"sprites/spr_2/spr_2.yy",},
     {"name":"Revealed","order":4,"path":"sprites/Revealed/Revealed.yy",},

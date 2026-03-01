@@ -69,7 +69,6 @@
     {"id":{"name":"setupGame","path":"scripts/setupGame/setupGame.yy",},},
     {"id":{"name":"spr_4","path":"sprites/spr_4/spr_4.yy",},},
     {"id":{"name":"Round2","path":"sprites/Round2/Round2.yy",},},
-    {"id":{"name":"backgroundSound","path":"sounds/backgroundSound/backgroundSound.yy",},},
     {"id":{"name":"Round1","path":"sprites/Round1/Round1.yy",},},
     {"id":{"name":"spr_2","path":"sprites/spr_2/spr_2.yy",},},
     {"id":{"name":"Revealed","path":"sprites/Revealed/Revealed.yy",},},
