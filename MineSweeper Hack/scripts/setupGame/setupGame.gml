@@ -29,6 +29,10 @@ function setupGame() {
 	//@Field end
 
 	//@Field Bomb Logic start
+	if(roundCount >= 5) {
+		instance_create_layer(room_width/2, room_height/2, "Instances", objYouWin);	
+		objMain.locked = true;
+	}
 	var width = gameSize;
 	var height = gameSize;
 	grid = [];

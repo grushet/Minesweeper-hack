@@ -9,6 +9,7 @@ function resetGame() {
     with (objLuckyBlock)    { instance_destroy(); }
     with (objFlag)          { instance_destroy(); }
     with (objYouWin)        { instance_destroy(); }
+	with (objPressQ)        { instance_destroy(); }
     objMain.grid = array_create(objMain.gameSize);
     for (var i = 0; i < objMain.gameSize; i++) {
         objMain.grid[i] = array_create(objMain.gameSize, 0);

@@ -1,7 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function updateRounds() {
-    if (objMain.roundCount > 4) objMain.roundCount = 1;
     objMain.timerTick = 0;
     switch (objMain.roundCount) {
         case 1: objRound.sprite_index = Round1; break;
