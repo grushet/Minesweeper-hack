@@ -2,6 +2,8 @@
 // You can write your code in this editor
 randomize();
 locked = false;
+timer = 19; 
+timerTick = 0;
 //@Field Tile Creation start
 var tileSize = 128;
 var gap = 2; 
