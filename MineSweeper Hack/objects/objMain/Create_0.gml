@@ -2,8 +2,10 @@
 // You can write your code in this editor
 randomize();
 locked = false;
-timer = 19; 
+timer = 29; 
 timerTick = 0;
+layer_set_visible("DustEffect", false);
+layer_set_visible("LeafEffect", true);
 //@Field Tile Creation start
 var tileSize = 128;
 var gap = 2; 

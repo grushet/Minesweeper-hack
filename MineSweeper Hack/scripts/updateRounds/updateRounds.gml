@@ -9,4 +9,21 @@ function updateRounds() {
         case 3: objRound.sprite_index = Round3; break;
         case 4: objRound.sprite_index = Round4; break;
     }
+	
+	if(objMain.roundCount == 1) {
+		layer_set_visible("LeafEffect", true);
+		layer_set_visible("DustEffect", false);
+		audio_play_sound(backgroundSound, 1, true);
+	} else if (objMain.roundCount == 2) {
+		audio_stop_sound(backgroundSound);
+		layer_set_visible("LeafEffect", false);
+		layer_set_visible("DustEffect", true);
+	} else if (objMain.roundCount == 3) {
+		layer_set_visible("LeafEffect", false);
+		layer_set_visible("DustEffect", true);
+	} else if (objMain.roundCount == 4) {
+		layer_set_visible("LeafEffect", false);
+		layer_set_visible("DustEffect", true);	
+	}
+	
 }

@@ -4,7 +4,7 @@
 if (objMain.grid[gridX][gridY] == -1) exit;
 
 var cellValue = objMain.grid[gridX][gridY];
-
+audio_play_sound(digSound, 1, false);
 if (cellValue == -1) exit;
 if (flagged) exit;
 if (objMain.locked) exit;
@@ -18,6 +18,7 @@ if (cellValue == 1) {
     
 } else if (cellValue == 2) {
     // LUCKY BLOCK
+	audio_play_sound(luckyBlockSound, 1, false);
 	var remaining = instance_number(objClickableTile) - 1;
 	var bombCount = 0;
 	for (var j = 0; j < objMain.gameSize; j++) {
