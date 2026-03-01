@@ -1,6 +1,7 @@
 	/// @description Main
 // You can write your code in this editor
 randomize();
+locked = false;
 //@Field Tile Creation start
 var tileSize = 128;
 var gap = 2; 

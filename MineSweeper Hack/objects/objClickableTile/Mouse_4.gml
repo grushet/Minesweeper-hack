@@ -6,10 +6,12 @@ if (objMain.grid[gridX][gridY] == -1) exit;
 var cellValue = objMain.grid[gridX][gridY];
 
 if (cellValue == -1) exit;
-
+if (flagged) exit;
+if (objMain.locked) exit;
 if (cellValue == 1) {
     // BOMB
     instance_create_layer(x, y, "Instances", objBomb);
+	objMain.locked = true;
 	objMain.alarm[0] = room_speed * 2;
     objMain.grid[gridX][gridY] = -1;
     instance_destroy();
@@ -25,6 +27,7 @@ if (cellValue == 1) {
 	}
 
 	if (remaining == bombCount) {
+	    objMain.locked = true;
 	    objMain.alarm[1] = room_speed * 2;
 	}
     var inst = instance_create_layer(x, y, "Instances", objLuckyBlock);
@@ -42,7 +45,8 @@ if (cellValue == 1) {
 	}
 
 if (remaining == bombCount) {
-    objMain.alarm[1] = room_speed * 2;
+	objMain.locked = true;
+    objMain.alarm[1] = room_speed * 2;//WIN
 }
 	
     var bombNum = calculateN(gridX, gridY);
