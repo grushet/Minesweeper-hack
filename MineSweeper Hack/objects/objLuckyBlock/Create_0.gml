@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Creation of the lucky block
 // You can write your code in this editor
 
 

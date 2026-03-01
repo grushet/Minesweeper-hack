@@ -5,6 +5,7 @@ window_set_fullscreen(true);
 locked = false;
 timer = 29; 
 timerTick = 0;
+window_set_cursor(cr_none); // hide default cursor
 layer_set_visible("DustEffect", false);
 layer_set_visible("LeafEffect", true);
 //@Field Tile Creation start

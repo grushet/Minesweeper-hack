@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Draw
 // You can write your code in this editor
 
 var displayTimer = max(timer, 0);
@@ -12,7 +12,7 @@ draw_set_color(c_white);
 draw_set_font(fontTimer);
 draw_text(display_get_gui_width() / 2, 290, timeStr);
 
-
+draw_sprite(Shovel, 0, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0));
 
 
 
