@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "grassBackground",
-  "bbox_bottom": 2239,
+  "name": "dirtBackground",
+  "bbox_bottom": 2439,
   "bbox_left": 0,
   "bbox_right": 2559,
   "bbox_top": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcde1da7-2875-4f87-ba61-5b1c9e30dd11",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5a2b445-08e2-4d29-987c-2b25069f53ed",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 2240,
+  "height": 2440,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"95e0f3b1-6589-4616-804a-216767905878","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6865f34a-62f8-455e-ac5c-329b9a9d0732","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "grassBackground",
+    "name": "dirtBackground",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fcde1da7-2875-4f87-ba61-5b1c9e30dd11","path":"sprites/grassBackground/grassBackground.yy",},},},"Disabled":false,"id":"44389dcc-9bad-4c10-afd5-84ff65631f27","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f5a2b445-08e2-4d29-987c-2b25069f53ed","path":"sprites/dirtBackground/dirtBackground.yy",},},},"Disabled":false,"id":"4713b8a5-dbbe-4f5f-8aee-c690bf706f12","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

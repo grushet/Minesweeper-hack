@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "grassBackground",
-  "bbox_bottom": 2239,
+  "name": "dustParticle",
+  "bbox_bottom": 9,
   "bbox_left": 0,
-  "bbox_right": 2559,
+  "bbox_right": 9,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcde1da7-2875-4f87-ba61-5b1c9e30dd11",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2e69cf42-6d4d-423e-bf1d-a47a88041f97",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 2240,
+  "height": 10,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"95e0f3b1-6589-4616-804a-216767905878","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1aa32ea0-b34d-48df-8db3-d83977c2a06a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "Design",
     "path": "folders/Sprites/Design.yy",
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "grassBackground",
+    "name": "dustParticle",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fcde1da7-2875-4f87-ba61-5b1c9e30dd11","path":"sprites/grassBackground/grassBackground.yy",},},},"Disabled":false,"id":"44389dcc-9bad-4c10-afd5-84ff65631f27","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2e69cf42-6d4d-423e-bf1d-a47a88041f97","path":"sprites/dustParticle/dustParticle.yy",},},},"Disabled":false,"id":"83302ac0-45fa-46de-a0b8-63b1e4b2e607","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 5,
+    "yorigin": 5,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 2560,
+  "width": 10,
 }

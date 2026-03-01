@@ -6,6 +6,7 @@ timer = 29;
 timerTick = 0;
 layer_set_visible("DustEffect", false);
 layer_set_visible("LeafEffect", true);
+audio_play_sound(backgroundSound, 1, true);
 //@Field Tile Creation start
 var tileSize = 128;
 var gap = 2; 

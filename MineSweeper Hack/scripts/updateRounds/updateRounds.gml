@@ -14,14 +14,26 @@ function updateRounds() {
 		layer_set_visible("LeafEffect", true);
 		layer_set_visible("DustEffect", false);
 		audio_play_sound(backgroundSound, 1, true);
+		var lay_id = layer_get_id("Background");
+		var bg_id = layer_background_get_id(lay_id);
+		layer_background_sprite(bg_id, grassBackground);
 	} else if (objMain.roundCount == 2) {
 		audio_stop_sound(backgroundSound);
+		var lay_id = layer_get_id("Background");
+		var bg_id = layer_background_get_id(lay_id);
+		layer_background_sprite(bg_id, dirtBackground);
 		layer_set_visible("LeafEffect", false);
 		layer_set_visible("DustEffect", true);
 	} else if (objMain.roundCount == 3) {
 		layer_set_visible("LeafEffect", false);
 		layer_set_visible("DustEffect", true);
+		var lay_id = layer_get_id("Background");
+		var bg_id = layer_background_get_id(lay_id);
+		layer_background_sprite(bg_id, rockBackground);
 	} else if (objMain.roundCount == 4) {
+		var lay_id = layer_get_id("Background");
+		var bg_id = layer_background_get_id(lay_id);
+		layer_background_sprite(bg_id, bedrockBackground);
 		layer_set_visible("LeafEffect", false);
 		layer_set_visible("DustEffect", true);	
 	}
