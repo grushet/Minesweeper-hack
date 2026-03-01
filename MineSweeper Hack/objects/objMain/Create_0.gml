@@ -1,6 +1,7 @@
 	/// @description Main
 // You can write your code in this editor
 randomize();
+window_set_fullscreen(true);
 locked = false;
 timer = 29; 
 timerTick = 0;
